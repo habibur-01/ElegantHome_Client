@@ -30,7 +30,7 @@
     {
         "id": 3,
         "category": "Gardening",
-        "name": "White Chair",
+        "name": "Gardening Jar",
         "price": 500,
         "rating": "4.0",
         "image": "https://i.ibb.co/Jxqyn1W/alexandra-gorn-W5dsm9n6e3g-unsplash.jpg",
@@ -44,7 +44,7 @@
     {
         "id": 4,
         "category": "Furniture",
-        "name": "Gardening Jar",
+        "name": "White Chair",
         "price": 4000,
         "image": "https://i.ibb.co/m9XDRbG/scopic-ltd-NLl-Ww-R4d3q-U-unsplash.jpg",
         "description": {

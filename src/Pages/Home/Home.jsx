@@ -1,7 +1,9 @@
+import Footer from "../../Components/Shared/Footer/Footer";
 import Aboutus from "../Aboutus/Aboutus";
 import Banner from "./Banner/Banner";
 import ChooseUs from "./ChooseUs/ChooseUs";
 import Products from "./Products/Products";
+import Testimonials from "./Testimonials/Testimonials";
 
 
 const Home = () => {
@@ -12,6 +14,8 @@ const Home = () => {
                 <Aboutus></Aboutus>
                 <Products></Products>
                 <ChooseUs></ChooseUs>
+                <Testimonials></Testimonials>
+                <Footer></Footer>
             </div>
         </div>
     );

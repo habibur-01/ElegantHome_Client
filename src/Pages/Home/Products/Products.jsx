@@ -9,7 +9,7 @@ const Products = () => {
     const [products, setProducts] = useState([])
 
     useEffect(() => {
-        axios.get("/public/decor.json")
+        axios.get("/decor.json")
         .then(response => {
             setProducts(response.data)
         }).catch(err => {
