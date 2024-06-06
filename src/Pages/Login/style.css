@@ -1,0 +1,10 @@
+input{
+    width: 70%;
+    height: 45px;
+    border: 1px solid rgb(82, 82, 80);
+    border-radius: 8px;
+    padding-left: 16px;
+}
+input:hover{
+    border: 1px solid rgb(103, 156, 236);
+}

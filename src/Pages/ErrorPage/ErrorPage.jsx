@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import errorpic from '../../assets/Error/file.png'
 
 const ErrorPage = () => {
@@ -8,10 +9,10 @@ const ErrorPage = () => {
             </div>
             <div>
                 <h1 className='text-4xl font-bold'>
-                   Opps! There is a error. No page found
+                   Opps! No page found
                 </h1>
-                <div className='flex justify-center items-center'>
-                    <button className='btn btn-secondary'>Go to home</button>
+                <div className='flex justify-center items-center mt-6'>
+                    <Link to={"/"}><button className='btn btn-primary'>Go to home</button></Link>
                 </div>
 
             </div>

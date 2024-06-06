@@ -3,7 +3,7 @@ import { FaRegStar } from "react-icons/fa";
 
 const Card = ({ product }) => {
   return (
-    <div className="card card-compact w-[366px] bg-base-100 shadow-xl">
+    <div className="card card-compact w-[366px] bg-base-100 shadow-xl hover:cursor-pointer hover:scale-105">
       <figure>
         <img
           src={product.image}

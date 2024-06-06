@@ -15,6 +15,20 @@
     },
     {
         "id": 2,
+        "category": "Decor",
+        "name": "Table Lamp",
+        "price": 2000,
+        "rating": "4.5",
+        "image": "https://i.ibb.co/FVfmMTR/decor-1.jpg",
+        "description": {
+            "color": "Yellow",
+            "material": "Metal",
+            "productCode": "sdk-45685",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+        "id": 3,
         "category": "Furniture",
         "name": "Sofa",
         "rating": "4.1",
@@ -28,7 +42,7 @@
         }
     },
     {
-        "id": 3,
+        "id": 4,
         "category": "Gardening",
         "name": "Gardening Jar",
         "price": 500,
@@ -38,20 +52,6 @@
             "color": "red",
             "material": "Wood",
             "productCode": "sdk-45683",
-            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non. "
-        }
-    },
-    {
-        "id": 4,
-        "category": "Furniture",
-        "name": "White Chair",
-        "price": 4000,
-        "image": "https://i.ibb.co/m9XDRbG/scopic-ltd-NLl-Ww-R4d3q-U-unsplash.jpg",
-        "description": {
-            "color": "White",
-            "material": "Wood",
-            "productCode": "sdk-45684",
-            "rating": "4.2",
             "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non. "
         }
     }

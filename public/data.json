@@ -1,0 +1,393 @@
+[
+    {
+        "category": "Furniture",
+        "name": "Wooden Chair",
+        "price": 5000,
+        "rating": "4.1",
+        "image": "https://i.ibb.co/NnPqkKn/sam-moghadam-khamseh-kvmds-Tr-GOBM-unsplash.jpg",
+        "description": {
+            "color": "red",
+            "material": "Wood",
+            "productCode": "sdk-45681",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non. "
+        }
+    },
+    {
+        "category": "Decor",
+        "name": "Table Lamp",
+        "price": 2000,
+        "rating": "4.5",
+        "image": "https://i.ibb.co/FVfmMTR/decor-1.jpg",
+        "description": {
+            "color": "Yellow",
+            "material": "Metal",
+            "productCode": "sdk-45685",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+        "category": "Furniture",
+        "name": "Sofa",
+        "rating": "4.1",
+        "price": 10000,
+        "image": "https://i.ibb.co/wrDsS38/paul-weaver-n-Wid-MEQsn-AQ-unsplash.jpg",
+        "description": {
+            "color": "red",
+            "material": "Wood",
+            "productCode": "sdk-45682",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non. "
+        }
+    },
+    {
+        "category": "Gardening",
+        "name": "Gardening Jar",
+        "price": 500,
+        "rating": "4.0",
+        "image": "https://i.ibb.co/Jxqyn1W/alexandra-gorn-W5dsm9n6e3g-unsplash.jpg",
+        "description": {
+            "color": "red",
+            "material": "Wood",
+            "productCode": "sdk-45683",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non. "
+        }
+    },
+    {
+        "category": "Furniture",
+        "name": "White Chair",
+        "price": 4000,
+        "image": "https://i.ibb.co/m9XDRbG/scopic-ltd-NLl-Ww-R4d3q-U-unsplash.jpg",
+        "description": {
+            "color": "White",
+            "material": "Wood",
+            "productCode": "sdk-45699",
+            "rating": "4.2",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non. "
+        }
+    },
+    {
+        "category": "Furniture",
+        "name": "White Chair",
+        "price": 4000,
+        "image": "https://i.ibb.co/m9XDRbG/scopic-ltd-NLl-Ww-R4d3q-U-unsplash.jpg",
+        "description": {
+            "color": "White",
+            "material": "Wood",
+            "productCode": "sdk-45684",
+            "rating": "4.2",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non. "
+        }
+    },
+    {
+        "category": "Decor",
+        "name": "Table Lamp",
+        "price": 2000,
+        "rating": "4.5",
+        "image": "https://i.ibb.co/FVfmMTR/decor-1.jpg",
+        "description": {
+            "color": "Yellow",
+            "material": "Metal",
+            "productCode": "sdk-45685",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+        "category": "Bedding",
+        "name": "Bed Cover",
+        "price": 1000,
+        "rating": "4.3",
+        "image": "https://i.ibb.co/bJHrvbK/bed-2.png",
+        "description": {
+            "color": "Brown",
+            "material": "Cotton",
+            "productCode": "sdk-45686",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+       
+        "category": "Decor",
+        "name": "Flower Pot",
+        "price": 1500,
+        "rating": "4.6",
+        "image": "https://i.ibb.co/x77KDsj/sarah-dorweiler-0-Qmz-QZndk-OQ-unsplash.jpg",
+        "description": {
+            "color": "Multicolor",
+            "material": "Canvas",
+            "productCode": "sdk-45687",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+       
+        "category": "Bedding",
+        "name": "Cotton Bed Cover",
+        "price": 3000,
+        "rating": "4.7",
+        "image": "https://i.ibb.co/BVMXpnL/bed-3.jpg",
+        "description": {
+            "color": "Blue",
+            "material": "Cotton",
+            "productCode": "sdk-45688",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+       
+        "category": "Decor",
+        "name": "Wooden Mirror",
+        "price": 1200,
+        "rating": "4.4",
+        "image": "https://i.ibb.co/c8ZwTtg/decor-4.jpg",
+        "description": {
+            "color": "Chocolate",
+            "material": "Wood",
+            "productCode": "sdk-45689",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+        
+        "category": "Bedding",
+        "name": "Pillow Set",
+        "price": 15000,
+        "rating": "4.5",
+        "image": "https://i.ibb.co/mydVb5z/pillow-2.jpg",
+        "description": {
+            "color": "Brown",
+            "material": "Feather",
+            "productCode": "sdk-45690",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+        
+        "category": "Decor",
+        "name": "Vase lamp",
+        "price": 800,
+        "rating": "4.2",
+        "image": "https://i.ibb.co/jbpqZbS/decor-3.jpg",
+        "description": {
+            "color": "White",
+            "material": "PVC",
+            "productCode": "sdk-45691",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+       
+        "category": "Bedding",
+        "name": "Soft Pillow ",
+        "price": 1000,
+        "rating": "4.3",
+        "image": "https://i.ibb.co/68NNQdL/pillow-1.jpg",
+        "description": {
+            "color": "White",
+            "material": "Feather",
+            "productCode": "sdk-45697",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+        
+        "category": "Bedding",
+        "name": "Pillow Set",
+        "price": 700,
+        "rating": "4.3",
+        "image": "https://i.ibb.co/XD9jp7m/0710000113318.webp",
+        "description": {
+            "color": "White",
+            "material": "Feather",
+            "productCode": "sdk-45693",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+       
+        "category": "Decor",
+        "name": "Wooden Lamp",
+        "price": 7000,
+        "rating": "4.6",
+        "image": "https://i.ibb.co/3M0kzZQ/decor-2.jpg",
+        "description": {
+            "color": "Gold",
+            "material": "Crystal",
+            "productCode": "sdk-45692",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+       
+        "category": "Decor",
+        "name": "Flower Jar",
+        "price": 7000,
+        "rating": "4.6",
+        "image": "https://i.ibb.co/hd8Zw0F/angela-bailey-tu-Jtzgh-Mu-Ew-unsplash.jpg",
+        "description": {
+            "color": "Gold",
+            "material": "Crystal",
+            "productCode": "sdk-45692",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+        
+        "category": "Bedding",
+        "name": "Pillow Set",
+        "price": 1000,
+        "rating": "4.3",
+        "image": "https://i.ibb.co/zxxvvcs/pillow-3.jpg",
+        "description": {
+            "color": "White",
+            "material": "Feather",
+            "productCode": "sdk-45693",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+        
+        "category": "Bedding",
+        "name": "Bed Cover Set",
+        "price": 6000,
+        "rating": "4.3",
+        "image": "https://i.ibb.co/fHFRQ9Z/jordan-bigelow-53-Bj-YSxca5g-unsplash.jpg",
+        "description": {
+            "color": "White",
+            "material": "Feather",
+            "productCode": "sdk-45693",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+        
+        "category": "Gardening",
+        "name": "Plant Pot",
+        "price": 300,
+        "rating": "4.0",
+        "image": "https://i.ibb.co/kygSrVc/linh-le-gi-P0e750-Dr8-unsplash.jpg",
+        "description": {
+            "color": "Green",
+            "material": "Plastic",
+            "productCode": "sdk-45696",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+        
+        "category": "Gardening",
+        "name": "Plant Pot",
+        "price": 300,
+        "rating": "4.0",
+        "image": "https://i.ibb.co/C0Qc745/beautiful-interior-decorations.jpg",
+        "description": {
+            "color": "Green",
+            "material": "wood",
+            "productCode": "sdk-45694",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non."
+        }
+    },
+    {
+        "category": "Furniture",
+        "name": "Pab Chair",
+        "price": 5000,
+        "rating": "4.1",
+        "image": "https://i.ibb.co/BLcgTCf/kara-eads-buhmhprfo3g-unsplash.jpg",
+        "description": {
+            "color": "White",
+            "material": "Wood",
+            "productCode": "sdk-45675",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non. "
+        }
+    },
+    {
+        "category": "Furniture",
+        "name": "Relaxing Chair",
+        "price": 5000,
+        "rating": "4.1",
+        "image": "https://i.ibb.co/hmT4hjK/behnam-norouzi-ph-Xwn-WWz-BM-unsplash.jpg",
+        "description": {
+            "color": "Chocolate",
+            "material": "Silver",
+            "productCode": "sdk-45674",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non. "
+        }
+    },
+    {
+        "category": "Furniture",
+        "name": "Round Sofa",
+        "price": 5000,
+        "rating": "4.1",
+        "image": "https://i.ibb.co/Jr9XzqF/hutomo-abrianto-Q-f-Zcn8vl-WY-unsplash.jpg",
+        "description": {
+            "color": "White",
+            "material": "Silver",
+            "productCode": "sdk-45673",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non. "
+        }
+    },
+    {
+        "category": "Furniture",
+        "name": "Round Sofa",
+        "price": 5000,
+        "rating": "4.1",
+        "image": "https://i.ibb.co/Jr9XzqF/hutomo-abrianto-Q-f-Zcn8vl-WY-unsplash.jpg",
+        "description": {
+            "color": "Chocolate",
+            "material": "Silver",
+            "productCode": "sdk-45671",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non. "
+        }
+    },
+    {
+        "category": "Gardening",
+        "name": "Bambo Pot",
+        "price": 5000,
+        "rating": "4.1",
+        "image": "https://i.ibb.co/C0Qc745/beautiful-interior-decorations.jpg",
+        "description": {
+            "color": "Chocolate",
+            "material": "Bambo",
+            "productCode": "sdk-45676",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non. "
+        }
+    },
+    {
+        "category": "Furniture",
+        "name": "Round Chair",
+        "price": 5000,
+        "rating": "4.1",
+        "image": "https://i.ibb.co/k8jRKnZ/suchit-poojari-lj-Ri-Zl00n18-unsplash.jpg",
+        "description": {
+            "color": "Chocolate",
+            "material": "Bambo",
+            "productCode": "sdk-45676",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non. "
+        }
+    },
+    {
+        "category": "Furniture",
+        "name": "Round Chair",
+        "price": 5000,
+        "rating": "4.1",
+        "image": "https://i.ibb.co/10XZr4m/modern-living-room-interior-design.jpg",
+        "description": {
+            "color": "Chocolate",
+            "material": "Bambo",
+            "productCode": "sdk-45676",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non. "
+        }
+    },
+    {
+        "category": "Furniture",
+        "name": "Chair & table",
+        "price": 5000,
+        "rating": "4.1",
+        "image": "https://i.ibb.co/JRRd0dy/interior-design-with-photoframes-nice-chairs.jpg",
+        "description": {
+            "color": "Chocolate",
+            "material": "Bambo",
+            "productCode": "sdk-45676",
+            "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et tenetur rerum accusantium, voluptate non. "
+        }
+    }
+   
+]

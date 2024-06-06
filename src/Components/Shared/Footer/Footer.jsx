@@ -1,15 +1,15 @@
-import footerPic from "../../../assets/logo/logo.png"
+import footerPic from "../../../assets/logo/logo.png";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="footer p-10 bg-[#30cfbd] text-base-content">
+    <div className="bg-[#30cfbd] h-full">
+      <footer className="footer p-24  text-base-content">
         <aside>
-          <img src={footerPic} alt="" />
+          <img src={footerPic} alt="" className="bg-yellow-200 rounded-lg"/>
           <p>
-            ACME Industries Ltd.
+            ElegantHome Ltd.
             <br />
-            Providing reliable tech since 1992
+            Providing reliable tech since 2024
           </p>
         </aside>
         <nav>

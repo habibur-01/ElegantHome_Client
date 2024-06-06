@@ -1,8 +1,11 @@
 import { NavLink } from "react-router-dom";
 import logo from "../../../assets/logo/logo.png";
 import userImg from "../../../assets/user/832.jpg"
+import useAuth from "../../../hooks/useAuth";
 
 const Navbar = () => {
+  const {user, userSignOut} = useAuth()
+
   const navlinks = (
     <>
       <li>
@@ -17,11 +20,14 @@ const Navbar = () => {
       <li>
         <NavLink to={"/contact"}>Contact us</NavLink>
       </li>
-      <li>
-        <NavLink to={"/contact"}>Login</NavLink>
+      <li className={`${user?"hidden": "block"}`}>
+        <NavLink to={"/login"}>Login</NavLink>
       </li>
     </>
   );
+  const handleLogout = () => {
+    userSignOut()
+  }
   return (
     <div className="navbar bg-base-100 h-20 sticky container mx-auto z-10">
       <div className="navbar-start">
@@ -116,14 +122,16 @@ const Navbar = () => {
             >
               <li>
                 <a className="justify-between">
-                  Profile
-                  <span className="badge">New</span>
+                  {
+                    user? <>{user.displayName}</>:<>Profile</>
+                  }
+                  
                 </a>
               </li>
               <li>
                 <a>Settings</a>
               </li>
-              <li>
+              <li onClick={handleLogout}>
                 <a>Logout</a>
               </li>
             </ul>
