@@ -2,7 +2,7 @@ import bannerBg from "../../../assets/banner/4935203_House_Furniture_Interior De
 
 const Banner = () => {
   return (
-    <div>
+    <div className="w-full h-[800px]">
       <div className="relative z-0">
         <div className="w-[100%] h-[800px] ">
           <video className="w-[100%] h-full object-fill" autoPlay loop muted>
@@ -20,7 +20,7 @@ const Banner = () => {
               modern home decor. Discover <br /> timeless pieces that inspire
               and delight.
             </p>
-            <button className="btn bg-yellow-400 text-lg px-6  mt-10 outline-none border-none hover:text-base ">
+            <button className="btn bg-yellow-400 text-black text-lg px-6  mt-10 outline-none border-none hover:text-base ">
               Buy now
             </button>
           </div>
