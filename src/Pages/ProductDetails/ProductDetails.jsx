@@ -15,7 +15,8 @@ const ProductDetails = () => {
     const productCode = product?.description?.productCode;
     const productName = product?.name;
     const productImg = product?.image;
-    const cartdata = { email, productCode, productName, productImg };
+    const price = product?.price
+    const cartdata = { email, productCode, productName, productImg, price };
     axiosSecure.post("/carts", cartdata)
     .then(res => {
         console.log(res.data)
