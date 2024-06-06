@@ -128,9 +128,9 @@ const Navbar = () => {
                   
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a>Settings</a>
-              </li>
+              </li> */}
               <li onClick={handleLogout}>
                 <a>Logout</a>
               </li>
