@@ -7,6 +7,11 @@ import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/SignUp";
 import ProductDetails from "../Pages/ProductDetails/ProductDetails";
 import YourCart from "../Pages/YourCart/YourCart";
+import PaymentSuccess from "../Pages/PaymentSuccess/PaymentSuccess";
+import PaymentFail from "../Pages/PaymentSuccess/PaymentFail";
+import FindStore from "../Pages/FindStore/FindStore";
+import ContactUs from "../Pages/ContactUs/ContactUs";
+import PrivateRoute from "../Components/Shared/PrivateRoute/PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -24,11 +29,27 @@ const router = createBrowserRouter([
         },
         {
           path: "/products/:id",
-          element: <ProductDetails></ProductDetails>
+          element: <PrivateRoute><ProductDetails></ProductDetails></PrivateRoute>
         },
         {
           path: "/viewcart",
           element: <YourCart></YourCart>
+        },
+        {
+          path: "/payments/success/:transid",
+          element: <PaymentSuccess></PaymentSuccess>
+        },
+        {
+          path: "/payments/fail/:transid",
+          element: <PaymentFail></PaymentFail>
+        },
+        {
+          path: "/findstore",
+          element: <FindStore></FindStore>
+        },
+        {
+          path: "/contact",
+          element: <ContactUs></ContactUs>
         }
         
       ]

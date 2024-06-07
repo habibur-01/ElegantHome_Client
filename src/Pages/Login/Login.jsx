@@ -45,10 +45,10 @@ const Login = () => {
     <div>
       <Container>
         <div className="flex justify-center w-full h-[800px] items-center relative">
-          <div className="w-[50%]">
+          <div className="w-[50%] hidden md:block">
             <img src={loginbg} className="w-[80%] h-[80%]" alt="" />
           </div>
-          <div className="w-[50%] p-8">
+          <div className="w-[100%] md:w-[50%] p-8">
             <div>
               <div className="space-y-2">
                 <h1 className="text-2xl font-bold uppercase">Login</h1>

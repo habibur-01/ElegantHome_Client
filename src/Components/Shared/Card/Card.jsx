@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Card = ({ product }) => {
   return (
     <Link to={`/products/${product._id}`} state={product}>
-      <div className="card card-compact w-[366px] bg-base-100 shadow-xl hover:cursor-pointer hover:scale-105">
+      <div className="card card-compact w-[366px] md:w-[320px] lg:w-[366px] bg-base-100 shadow-xl hover:cursor-pointer hover:scale-105">
         <figure>
           <img
             src={product.image}

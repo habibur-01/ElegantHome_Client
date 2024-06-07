@@ -38,10 +38,10 @@ const SignUp = () => {
   return (
     <div className="container mx-auto">
       <div className="flex justify-center relative w-full h-[800px] items-center">
-        <div className="w-[50%]">
+        <div className="w-[50%] hidden md:block">
           <img src={signuppic} className="w-[80%] h-[80%]" alt="" />
         </div>
-        <div className="w-[50%] p-8">
+        <div className="w-[100%] md:w-[50%] p-8">
           <div>
             <div className="space-y-2">
               <h1 className="text-2xl font-bold uppercase">Sign Up</h1>

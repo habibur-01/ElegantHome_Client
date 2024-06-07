@@ -30,12 +30,12 @@ const ProductDetails = () => {
 
   return (
     <div className="container mx-auto">
-      <h1 className="text-sm text-gray-500 font-medium my-8">
+      <h1 className="text-sm text-gray-500 font-medium my-8 pl-4">
         Home/Products/{product?.name}
       </h1>
       <div className="md:flex justify-around">
         <div>
-          <div className="w-[400px] h-[500px]">
+          <div className="w-[400px] h-[500px] px-4 md:px-2">
             <img
               src={product?.image}
               className="w-full h-full object-fill overflow-hidden"
@@ -43,7 +43,7 @@ const ProductDetails = () => {
             />
           </div>
         </div>
-        <div>
+        <div className=" p-6 md:px-5 md:py-0">
           <h1 className="text-3xl font-semibold">
             Product Name: {product?.name}
           </h1>
@@ -69,9 +69,9 @@ const ProductDetails = () => {
               <h1 className="text-base font-medium">Product Material</h1>
               <p>{product?.description?.material}</p>
             </div>
-            <div className="p-2  border-[1px] border-gray-300">
+            <div className="p-2  border-[1px] border-gray-300 overflow-scroll">
               <h1 className="text-base font-medium">Product Details</h1>
-              <p className="w-[500px]">{product?.description?.details}</p>
+              <p className="w-[500px] ">{product?.description?.details}</p>
             </div>
           </div>
           <div>

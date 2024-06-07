@@ -6,7 +6,7 @@ const TitleSection = ({title, subTitle}) => {
     return (
         <div className='flex justify-center items-center flex-col '>
             <h1 className='text-4xl font-bold'>{title}</h1>
-            <p className='text-black mt-4'>{subTitle}</p>
+            <p className='text-black mt-4 px-10 text-center'>{subTitle}</p>
         </div>
     );
 };

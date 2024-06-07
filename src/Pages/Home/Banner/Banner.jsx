@@ -11,7 +11,7 @@ const Banner = () => {
           </video>
         </div>
         <div className="absolute w-[100%] h-[100%] bg-[#00000070] top-0 flex flex-col justify-center text-white">
-          <div className=" container mx-auto">
+          <div className=" container mx-auto sm:flex sm:justify-center pl-6 sm:flex-col sm:items-center sm:text-center lg:flex-none">
             <h1 className="text-5xl font-bold mb-7 leading-tight">
               Personalize Your Space  With <br/> Elegance
             </h1>

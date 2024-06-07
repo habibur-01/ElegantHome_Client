@@ -15,8 +15,8 @@ const ChooseUs = () => {
             }
           ></TitleSection>
         </div>
-        <div className="flex justify-around mt-10">
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32">
+        <div className="flex justify-around mt-10 px-4">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 lg:gap-32">
             <div className="w-96 bg-[#e0dcdc52] p-10 rounded-md shadow-md">
               <h1 className="mb-3">
                 <FaRegStar color="orange" size={25} />

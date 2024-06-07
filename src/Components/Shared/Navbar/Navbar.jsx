@@ -55,7 +55,7 @@ const Navbar = () => {
             {navlinks}
           </ul>
         </div>
-        <a className="text-2xl italic inline-flex justify-center items-center">
+        <a className="text-2xl italic inline-flex justify-center items-center ml-8 sm:ml-0">
           <img src={logo}></img>ElegantHome
         </a>
       </div>

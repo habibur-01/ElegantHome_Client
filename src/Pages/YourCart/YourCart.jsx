@@ -19,9 +19,12 @@ const YourCart = () => {
         console.log(err);
       });
   }, [axiosSecure, setCartData, user?.email]);
-  const total = cartData.reduce((initial, price) => initial + (parseInt(price.price)), 0 )
-  const finalTotal = total + 120
-  console.log(total)
+  const total = cartData.reduce(
+    (initial, price) => initial + parseInt(price.price),
+    0
+  );
+  const finalTotal = total + 120;
+  console.log(total);
 
   const handleItemDelete = (id) => {
     console.log(id);
@@ -32,6 +35,25 @@ const YourCart = () => {
         if (res.data?.deletedCount > 0) {
           toast("Item deleted");
         }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+  const handlePayment = () => {
+    
+    const name = user.displayName;
+    const email = user.email;
+    
+    const paymentInfo = {
+      email, name, finalTotal
+    };
+    console.log(paymentInfo);
+
+    axiosSecure.post("/order", paymentInfo)
+      .then((response) => {
+        window.location.replace(response.data.url);
+        console.log(response);
       })
       .catch((err) => {
         console.log(err);
@@ -71,45 +93,43 @@ const YourCart = () => {
                     <tbody>
                       {/* row 1 */}
                       {cartData.map((cart) => (
-                        
-                          <tr key={cart._id}>
-                            <th>
-                              <label>
-                                <input type="checkbox" className="checkbox" />
-                              </label>
-                            </th>
-                            <td>
-                              <div className="flex items-center gap-3">
-                                <div className="avatar">
-                                  <div className="mask mask-squircle w-20 h-20">
-                                    <img
-                                      src={cart?.productImg}
-                                      alt="Product image"
-                                    />
-                                  </div>
-                                </div>
-                                <div>
-                                  <div className="font-bold">
-                                    {cart?.productName}
-                                  </div>
-                                  <div className="text-sm opacity-50">
-                                    {cart?.productCode}
-                                  </div>
+                        <tr key={cart._id}>
+                          <th>
+                            <label>
+                              <input type="checkbox" className="checkbox" />
+                            </label>
+                          </th>
+                          <td>
+                            <div className="flex items-center gap-3">
+                              <div className="avatar">
+                                <div className="mask mask-squircle w-20 h-20">
+                                  <img
+                                    src={cart?.productImg}
+                                    alt="Product image"
+                                  />
                                 </div>
                               </div>
-                            </td>
-                            <td>{cart?.price}</td>
+                              <div>
+                                <div className="font-bold">
+                                  {cart?.productName}
+                                </div>
+                                <div className="text-sm opacity-50">
+                                  {cart?.productCode}
+                                </div>
+                              </div>
+                            </div>
+                          </td>
+                          <td>{cart?.price}</td>
 
-                            <td>
-                              <button
-                                className="btn bg-yellow-400 btn-xs"
-                                onClick={() => handleItemDelete(cart?._id)}
-                              >
-                                Delete
-                              </button>
-                            </td>
-                          </tr>
-                        
+                          <td>
+                            <button
+                              className="btn bg-yellow-400 btn-xs"
+                              onClick={() => handleItemDelete(cart?._id)}
+                            >
+                              Delete
+                            </button>
+                          </td>
+                        </tr>
                       ))}
                     </tbody>
                     {/* foot */}
@@ -130,22 +150,27 @@ const YourCart = () => {
           </div>
         </div>
         <div className="w-[40%] my-6 bg-[#f5f4f4] py-6 px-10 rounded-lg">
-            <h1 className="text-xl font-semibold mb-4 mt-3">Order Summary</h1>
-            <div className="flex justify-between p-2">
-                <p>{`Subtotal ( ${cartData.length} Items)`}</p>
-                <p>Tk {total}</p>
-            </div>
-            <div className="flex justify-between p-2">
-                <p>Shippinf Fee</p>
-                <p> Tk 120</p>
-            </div>
-            <div className="flex justify-between p-2">
-                <p className="font-medium">Total</p>
-                <p> {finalTotal}</p>
-            </div>
-            <div className="mt-8">
-                <button className="btn w-full bg-primary text-base text-white hover:bg-transparent hover:text-black">Proceed to checkout</button>
-            </div>
+          <h1 className="text-xl font-semibold mb-4 mt-3">Order Summary</h1>
+          <div className="flex justify-between p-2">
+            <p>{`Subtotal ( ${cartData.length} Items)`}</p>
+            <p>Tk {total}</p>
+          </div>
+          <div className="flex justify-between p-2">
+            <p>Shippinf Fee</p>
+            <p> Tk 120</p>
+          </div>
+          <div className="flex justify-between p-2">
+            <p className="font-medium">Total</p>
+            <p> {finalTotal}</p>
+          </div>
+          <div className="mt-8">
+            <button
+              className="btn w-full bg-primary text-base text-white hover:bg-transparent hover:text-black"
+              onClick={handlePayment}
+            >
+              Proceed to checkout
+            </button>
+          </div>
         </div>
       </div>
     </Container>

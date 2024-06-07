@@ -18,8 +18,8 @@ const Aboutus = () => {
     every room in your home a masterpiece of creativity and elegance.`
   return (
     <Container>
-      <div className="flex justify-center items-center w-full h-[800px]">
-        <div className="w-[50%] px-20">
+      <div className="md:flex justify-center items-center w-full h-[800px] mt-16 md:my-0">
+        <div className="md:w-[50%] px-20">
           <h1 className="text-4xl font-bold">About us</h1>
           <p className="text-gray-500 mt-8">
             {
@@ -28,13 +28,13 @@ const Aboutus = () => {
             <span className={`text-black-500 font-bold hover:cursor-default ${isTrue &&'hidden'}` }onClick={() => setIsTrue(!isTrue)}> read more</span>
           </p>
         </div>
-        <div className="w-[50%] relative">
+        <div className="w-[70%] mt-20 md:mt-0 mx-auto md:w-[50%] relative">
           <div>
             
-            <img src={aboutPic1} className="w-[500px] h-[300px] object-cover overflow-hidden rounded-md" alt="furniture picture z-0" />
+            <img src={aboutPic1} className="md:w-[350px] lg:w-[500px] lg:h-[300px] object-cover overflow-hidden rounded-md" alt="furniture picture z-0" />
           </div>
-          <div className="absolute -top-[40%] right-28 z-10">
-            <img src={aboutPic2} alt="chair picture" className="w-[300px] h-[250px] object-fill overflow-hidden rounded-md"/>
+          <div className="absolute md:-top-[35%] lg:-top-[40%] hidden md:block md:-left-8 lg:right-28 z-10">
+            <img src={aboutPic2} alt="chair picture" className=" md:w-[200px] md:h-[150px] lg:w-[300px] lg:h-[250px] object-fill overflow-hidden rounded-md"/>
           </div>
         </div>
       </div>

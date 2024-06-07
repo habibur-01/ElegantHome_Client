@@ -25,17 +25,34 @@ const Testimonials = () => {
         <div>
           <div className="py-10 z-0">
             <Swiper
-              slidesPerView={2}
+              slidesPerView={1}
               spaceBetween={30}
               pagination={{
                 clickable: true,
               }}
+              breakpoints={{
+                
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30,
+                },
+                
+                1024: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+            }}
               modules={[Pagination]}
               className="mySwiper"
             >
               <SwiperSlide>
                 <div className="w-full relative h-[200px] flex flex-col justify-center items-center mb-10">
-                  <div className="bg-[#30cfbd] w-[80%] px-10 py-4 rounded-md z-0">
+                  <div className="bg-[#30cfbd] w-[80%] px-4 lg:px-10 py-4 rounded-md z-0">
                     <p>
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Officia consequuntur culpa deleniti corporis fugit ipsa
@@ -43,7 +60,7 @@ const Testimonials = () => {
                     </p>
                     <h1 className="text-xl font-semibold">--Abdul Matin</h1>
                   </div>
-                  <div className="absolute top-2 right-24 z-10">
+                  <div className="absolute top-0 lg:top-2 right-4 lg:right-24 z-10">
                     <img
                       src={user1}
                       alt="user picture"
@@ -54,7 +71,7 @@ const Testimonials = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="w-full relative h-[200px] flex flex-col justify-center items-center">
-                  <div className="bg-[#30cfbd] w-[80%] px-10 py-4 rounded-md z-0">
+                  <div className="bg-[#30cfbd] w-[80%] px-4 lg:px-10 py-4 rounded-md z-0">
                     <p>
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Officia consequuntur culpa deleniti corporis fugit ipsa
@@ -62,7 +79,7 @@ const Testimonials = () => {
                     </p>
                     <h1 className="text-xl font-semibold">--Jennifar Luiz</h1>
                   </div>
-                  <div className="absolute top-2 right-24 z-10">
+                  <div className="absolute top-0 lg:top-2 right-4 lg:right-24 z-10">
                     <img
                       src={user2}
                       alt="user picture"
@@ -73,7 +90,7 @@ const Testimonials = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="w-full relative h-[200px] flex flex-col justify-center items-center">
-                  <div className="bg-[#30cfbd] w-[80%] px-10 py-4 rounded-md z-0">
+                  <div className="bg-[#30cfbd] w-[80%] px-4 lg:px-10 py-4 rounded-md z-0">
                     <p>
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Officia consequuntur culpa deleniti corporis fugit ipsa
@@ -81,7 +98,7 @@ const Testimonials = () => {
                     </p>
                     <h1 className="text-xl font-semibold">--Brendon Jack</h1>
                   </div>
-                  <div className="absolute top-2 right-24 z-10">
+                  <div className="absolute top-0 lg:top-2 right-4 lg:right-24 z-10">
                     <img
                       src={user3}
                       alt="user picture"
