@@ -21,7 +21,7 @@ const ContactUs = () => {
             <p className="text-lg">Contact with us</p>
           </div>
         </div>
-        <div className="bg-[#ffffff] h-auto md:h-[600px] flex justify-center items-center pt-20 px-5">
+        <div className="bg-[#ffffff] h-auto md:h-[600px] flex justify-center items-center pt-20 px-5 mb-20">
             <div className="md:flex justify-center space-x-14 ">
                 <div className="border-2 w-full md:w-72 h-[447px]">
                     <div className="flex justify-between items-center border-b-2 py-8 px-8 gap-6">

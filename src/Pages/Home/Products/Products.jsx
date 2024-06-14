@@ -31,7 +31,7 @@ const Products = () => {
           ></TitleSection>
         </div>
         <div className="flex justify-center items-center lg:flex-none">
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10 mb-6">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-6 mt-10 mb-6">
             {products?.map((product) => (
               <Card key={product.id} product={product}></Card>
             ))}

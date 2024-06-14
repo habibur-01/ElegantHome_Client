@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const axiosSecure = axios.create({
-    baseURL: 'https://experimentslab-server.vercel.app',
+    baseURL: 'http://localhost:3000',
     withCredentials: true
 })
 

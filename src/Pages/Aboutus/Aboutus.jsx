@@ -25,7 +25,7 @@ const Aboutus = () => {
             {
                 isTrue? <>{description}</>: <>{description.slice(0, 210)}</> 
             }
-            <span className={`text-black-500 font-bold hover:cursor-default ${isTrue &&'hidden'}` }onClick={() => setIsTrue(!isTrue)}> read more</span>
+            <span className={`text-black-500 font-bold hover:cursor-pointer ` }onClick={() => setIsTrue(!isTrue)}> {isTrue ?'read less': 'read more'}</span>
           </p>
         </div>
         <div className="w-[70%] mt-20 md:mt-0 mx-auto md:w-[50%] relative">
@@ -33,7 +33,7 @@ const Aboutus = () => {
             
             <img src={aboutPic1} className="md:w-[350px] lg:w-[500px] lg:h-[300px] object-cover overflow-hidden rounded-md" alt="furniture picture z-0" />
           </div>
-          <div className="absolute md:-top-[35%] lg:-top-[40%] hidden md:block md:-left-8 lg:right-28 z-10">
+          <div className="absolute  lg:-top-[40%] hidden lg:block lg:right-28  z-10">
             <img src={aboutPic2} alt="chair picture" className=" md:w-[200px] md:h-[150px] lg:w-[300px] lg:h-[250px] object-fill overflow-hidden rounded-md"/>
           </div>
         </div>

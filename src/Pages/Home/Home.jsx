@@ -1,4 +1,4 @@
-import Footer from "../../Components/Shared/Footer/Footer";
+
 import Aboutus from "../Aboutus/Aboutus";
 import Banner from "./Banner/Banner";
 import ChooseUs from "./ChooseUs/ChooseUs";
@@ -15,7 +15,7 @@ const Home = () => {
                 <Products></Products>
                 <ChooseUs></ChooseUs>
                 <Testimonials></Testimonials>
-                <Footer></Footer>
+               
             </div>
         </div>
     );
